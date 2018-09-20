@@ -1,0 +1,24 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill);
+  grid-template-rows: repeat(auto-fill);
+    grid: "intr" "tab";
+    grid-gap: 95px 95px;
+}
+
+
+
+.intro{
+    grid-area:intr;
+
+}
+
+.table {
+    grid-area: tab;
+}
+
+
+
+
+.navbar{
+margin-bottom:25px;}
